@@ -39,18 +39,6 @@
       "target": "api::author.author",
       "inversedBy": "articles"
     },
-    "tags": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::tag.tag",
-      "mappedBy": "articles"
-    },
-    "category": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::category.category",
-      "inversedBy": "articles"
-    },
     "blocks": {
       "type": "dynamiczone",
       "components": [
@@ -59,6 +47,12 @@
         "shared.rich-text",
         "shared.slider"
       ]
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "articles"
     }
   }
 }

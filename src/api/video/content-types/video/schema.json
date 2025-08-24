@@ -27,11 +27,11 @@
     "URL": {
       "type": "string"
     },
-    "tags": {
+    "category": {
       "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::tag.tag",
-      "mappedBy": "videos"
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "videos"
     }
   }
 }
