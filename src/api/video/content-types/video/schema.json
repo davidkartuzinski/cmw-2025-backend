@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "videos",
+  "info": {
+    "singularName": "video",
+    "pluralName": "videos",
+    "displayName": "Video"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "text"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "URL": {
+      "type": "string"
+    }
+  }
+}

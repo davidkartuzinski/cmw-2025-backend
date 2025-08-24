@@ -6,9 +6,9 @@
   "scripts": {
     "build": "strapi build",
     "deploy": "strapi deploy",
-    "develop": "strapi develop",
+    "develop": "NODE_ENV=development strapi develop",
     "seed:example": "node ./scripts/seed.js",
-    "start": "strapi start",
+    "start": "NODE_ENV=production strapi start",
     "strapi": "strapi"
   },
   "dependencies": {
