@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_definition_blocks",
+  "info": {
+    "displayName": "Definition Block",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "defintion": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::defintion.defintion"
+    }
+  },
+  "config": {}
+}

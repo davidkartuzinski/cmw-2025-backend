@@ -1,5 +1,27 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface SharedBody extends Struct.ComponentSchema {
+  collectionName: 'components_shared_bodies';
+  info: {
+    displayName: 'Body';
+  };
+  attributes: {};
+}
+
+export interface SharedDefinitionBlock extends Struct.ComponentSchema {
+  collectionName: 'components_shared_definition_blocks';
+  info: {
+    displayName: 'Definition Block';
+    icon: 'book';
+  };
+  attributes: {
+    defintion: Schema.Attribute.Relation<
+      'oneToOne',
+      'api::defintion.defintion'
+    >;
+  };
+}
+
 export interface SharedMedia extends Struct.ComponentSchema {
   collectionName: 'components_shared_media';
   info: {
@@ -65,6 +87,8 @@ export interface SharedSlider extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'shared.body': SharedBody;
+      'shared.definition-block': SharedDefinitionBlock;
       'shared.media': SharedMedia;
       'shared.quote': SharedQuote;
       'shared.rich-text': SharedRichText;
