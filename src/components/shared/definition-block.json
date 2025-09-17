@@ -5,12 +5,6 @@
     "icon": "book"
   },
   "options": {},
-  "attributes": {
-    "defintion": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::defintion.defintion"
-    }
-  },
+  "attributes": {},
   "config": {}
 }

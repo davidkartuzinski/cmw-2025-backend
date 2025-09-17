@@ -14,12 +14,7 @@ export interface SharedDefinitionBlock extends Struct.ComponentSchema {
     displayName: 'Definition Block';
     icon: 'book';
   };
-  attributes: {
-    defintion: Schema.Attribute.Relation<
-      'oneToOne',
-      'api::defintion.defintion'
-    >;
-  };
+  attributes: {};
 }
 
 export interface SharedMedia extends Struct.ComponentSchema {

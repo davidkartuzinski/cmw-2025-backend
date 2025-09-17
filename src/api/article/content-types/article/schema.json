@@ -52,26 +52,20 @@
         "videos"
       ]
     },
-    "author": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::author.author",
-      "inversedBy": "articles"
-    },
-    "blocks": {
-      "type": "dynamiczone",
+    "bodyMDX": {
+      "type": "text",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "components": [
-        "shared.media",
-        "shared.quote",
-        "shared.rich-text",
-        "shared.slider",
-        "shared.definition-block"
-      ]
+      "required": true
+    },
+    "author": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::author.author",
+      "inversedBy": "articles"
     },
     "category": {
       "type": "relation",
