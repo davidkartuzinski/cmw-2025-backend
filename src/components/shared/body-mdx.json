@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_body_mdxes",
+  "info": {
+    "displayName": "bodyMDX",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "bodyMDX": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

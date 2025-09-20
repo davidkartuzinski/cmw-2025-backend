@@ -537,9 +537,7 @@ export interface ApiDefintionDefintion extends Struct.CollectionTypeSchema {
     };
   };
   attributes: {
-    Body: Schema.Attribute.DynamicZone<
-      ['shared.rich-text', 'shared.seo', 'shared.media']
-    > &
+    Body: Schema.Attribute.DynamicZone<['shared.seo']> &
       Schema.Attribute.Required &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
@@ -796,8 +794,31 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
     };
   };
   attributes: {
-    body: Schema.Attribute.RichText &
-      Schema.Attribute.Required &
+    Blocks: Schema.Attribute.DynamicZone<
+      [
+        'shared.text-media',
+        'shared.quote',
+        'shared.hero-split',
+        'shared.hero-overlay',
+        'shared.hero-feature-grid',
+        'shared.body-mdx',
+      ]
+    > &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    Blocks2: Schema.Attribute.DynamicZone<
+      [
+        'shared.text-media',
+        'shared.quote',
+        'shared.hero-split',
+        'shared.hero-overlay',
+        'shared.hero-feature-grid',
+        'shared.body-mdx',
+      ]
+    > &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
@@ -806,14 +827,20 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    excerpt: Schema.Attribute.Text &
+    locale: Schema.Attribute.String;
+    localizations: Schema.Attribute.Relation<'oneToMany', 'api::page.page'>;
+    mdxBody: Schema.Attribute.Text &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
         };
       }>;
-    locale: Schema.Attribute.String;
-    localizations: Schema.Attribute.Relation<'oneToMany', 'api::page.page'>;
+    mdxBody2: Schema.Attribute.Text &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     publishedAt: Schema.Attribute.DateTime;
     seo: Schema.Attribute.Component<'shared.seo', true> &
       Schema.Attribute.SetPluginOptions<{

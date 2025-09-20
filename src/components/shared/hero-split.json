@@ -1,0 +1,57 @@
+{
+  "collectionName": "components_shared_hero_splits",
+  "info": {
+    "displayName": "hero-split",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imageSide": {
+      "type": "enumeration",
+      "required": true,
+      "default": "right",
+      "enum": [
+        "right",
+        "left"
+      ]
+    },
+    "primaryButtonText": {
+      "type": "string",
+      "required": true
+    },
+    "primaryButtonUrl": {
+      "type": "string",
+      "default": "https://example.com",
+      "required": true
+    },
+    "secondaryButtonText": {
+      "type": "string"
+    },
+    "secondaryButtonUrl": {
+      "type": "string"
+    },
+    "badge": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

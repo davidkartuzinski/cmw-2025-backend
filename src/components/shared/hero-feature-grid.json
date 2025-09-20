@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_shared_hero_feature_grids",
+  "info": {
+    "displayName": "hero-feature-grid",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "badge": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "imagePosition": {
+      "type": "enumeration",
+      "required": true,
+      "default": "top",
+      "enum": [
+        "top",
+        "bottom"
+      ]
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "featureItem": {
+      "type": "component",
+      "component": "shared.features",
+      "repeatable": true,
+      "required": true
+    }
+  },
+  "config": {}
+}

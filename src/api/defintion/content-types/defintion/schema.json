@@ -51,9 +51,7 @@
         }
       },
       "components": [
-        "shared.rich-text",
-        "shared.seo",
-        "shared.media"
+        "shared.seo"
       ],
       "required": true
     },

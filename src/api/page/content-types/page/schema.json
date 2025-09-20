@@ -35,7 +35,23 @@
       "targetField": "title",
       "required": true
     },
-    "excerpt": {
+    "Blocks": {
+      "type": "dynamiczone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "components": [
+        "shared.text-media",
+        "shared.quote",
+        "shared.hero-split",
+        "shared.hero-overlay",
+        "shared.hero-feature-grid",
+        "shared.body-mdx"
+      ]
+    },
+    "mdxBody": {
       "type": "text",
       "pluginOptions": {
         "i18n": {
@@ -43,14 +59,29 @@
         }
       }
     },
-    "body": {
-      "type": "richtext",
+    "Blocks2": {
+      "type": "dynamiczone",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "required": true
+      "components": [
+        "shared.text-media",
+        "shared.quote",
+        "shared.hero-split",
+        "shared.hero-overlay",
+        "shared.hero-feature-grid",
+        "shared.body-mdx"
+      ]
+    },
+    "mdxBody2": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "seo": {
       "type": "component",

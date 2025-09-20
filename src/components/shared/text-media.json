@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_shared_text_medias",
+  "info": {
+    "displayName": "text-media",
+    "icon": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imageSide": {
+      "type": "enumeration",
+      "required": true,
+      "default": "right",
+      "enum": [
+        "left",
+        "right"
+      ]
+    },
+    "linkText": {
+      "type": "string"
+    },
+    "linkUrl": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

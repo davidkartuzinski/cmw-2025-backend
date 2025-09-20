@@ -1,16 +1,31 @@
 {
   "collectionName": "components_shared_quotes",
   "info": {
-    "displayName": "Quote",
+    "displayName": "quote",
     "icon": "indent"
   },
   "options": {},
   "attributes": {
-    "title": {
+    "quote": {
+      "type": "text",
+      "required": true
+    },
+    "author": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
       "type": "string"
     },
-    "body": {
-      "type": "text"
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }

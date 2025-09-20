@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "id": 31,
+      "documentId": "d29i02cyhyg6vdl81ztkfb3h",
+      "title": "About",
+      "slug": "about",
+      "createdAt": "2025-09-13T17:17:08.498Z",
+      "updatedAt": "2025-09-18T11:18:27.832Z",
+      "publishedAt": "2025-09-18T11:18:27.856Z",
+      "locale": "en",
+      "mdxBody": "## Clamor quae pro pars\n\n### Vestigia sui\n\nFavilla viribus ait it reppulit [partus](#per-eram). Pererrat in aliudve facies,\nposcunt si voces bibulas. Ipse spes verecundo in caelum quodque et cornua\nconfusaque palmae animam ablatus dedit, posset duce sectamque summa. Exit manus\ntenera caput iam figitur conbibit Lethaei quibus [anguem famuli\nportabat](#clamor-quae-pro-pars) brevibus, cura penatibus.\n\nCautes nec; ore sanguine memorant ripam cum volucrem; molles lunae\n[nunc](#clamor-quae-pro-pars), movi? Suis mea, praeceps, nostra captivo ego\nhominis campi. Aeneaden deum iniqua *possit* cum lateo concipit artus opacae\nadsumptis: **Pallada levius ac**. Undis ut factoque Cytoriaco in tenera Neve\nmitis, que factis sit!\n\n### Per eram\n\n[Levis vitae si](#clamor-quae-pro-pars) nati per in Troum Aeacon et viae\naccensus, quae. Leto undarum amborum ut mihi ut potest viscere in cardine. Pecus\n**inter quis** stimuletur Protesilae quod **creavit Noctem**: genus orbe quemque\nleoni, cum sinit ut **dixit**.",
+      "Blocks": [
+        {
+          "__component": "shared.text-media",
+          "id": 9,
+          "heading": "Epulas umeris colebat tuum",
+          "body": "Bella cum *arcus questi* favorem et altera. Spectatae munera. Ista promissa\nvulnera linguam adversaque manebit, signa, faces, hactenus **fessam everti**\nvasto, deo. Gavisus nunc Cyllenius certae!",
+          "imageSide": "right",
+          "linkText": "Start now",
+          "linkUrl": "https://example.com"
+        },
+        {
+          "__component": "shared.quote",
+          "id": 13,
+          "quote": "All that we are is the result of what we have thought.",
+          "author": "Buddha",
+          "role": "Spiritual Leader"
+        },
+        {
+          "__component": "shared.hero-split",
+          "id": 5,
+          "heading": "Vestigia sui Vestigia sui\n ",
+          "description": "Favilla viribus ait it reppulit [partus](#per-eram). Pererrat in aliudve facies,\nposcunt si voces bibulas. Ipse spes verecundo in caelum quodque et cornua\nconfusaque palmae animam ablatus dedit, posset duce sectamque summa.",
+          "imageSide": "left",
+          "primaryButtonText": "Eat shoes",
+          "primaryButtonUrl": "https://example.com",
+          "secondaryButtonText": "Or eat Pizza",
+          "secondaryButtonUrl": "https://example.com/eatshoes",
+          "badge": "On Sale"
+        },
+        {
+          "__component": "shared.hero-overlay",
+          "id": 5,
+          "heading": "Spem viridi iaculum et satis seu tereti habes",
+          "subheading": "Erat vitta retiaque locutum clavae Lycormas, Acasto roganti",
+          "description": "Favilla viribus ait it reppulit [partus](#per-eram). Pererrat in aliudve facies,\nposcunt si voces bibulas. Ipse spes verecundo in caelum quodque et cornua\nconfusaque palmae animam ablatus dedit, posset duce sectamque summa. Exit manus\ntenera caput iam figitur conbibit Lethaei quibus",
+          "primaryButtonText": "Forgive me today",
+          "primaryButtonUrl": "https://example.com",
+          "secondaryButtonText": "Or forgive yourself",
+          "secondaryButtonUrl": "https://example.com"
+        },
+        {
+          "__component": "shared.hero-feature-grid",
+          "id": 5,
+          "badge": "Forget it",
+          "heading": "Clamor quae pro pars"
+        },
+        {
+          "__component": "shared.body-mdx",
+          "id": 5,
+          "bodyMDX": "[Levis vitae si](#clamor-quae-pro-pars) nati per in Troum Aeacon et viae\naccensus, quae. Leto undarum amborum ut mihi ut potest viscere in cardine. Pecus\n**inter quis** stimuletur Protesilae quod **creavit Noctem**: genus orbe quemque\nleoni, cum sinit ut **dixit**."
+        }
+      ],
+      "Blocks2": [
+        {
+          "__component": "shared.text-media",
+          "id": 10,
+          "heading": "Sign Up NowFavilla viribus ait it reppulit ",
+          "body": "Lorem markdownum *conata ilia illud*; des et graviora natura Amor poscuntque\numida. Reccidat despicit, quam; sensum erat clipeum silentia recuset referamus,\nannua trabesque dum cede! Abest ne sinuosa animo: in in desint iacebant miserae\npampineae accipiam urbis pan.",
+          "imageSide": "left",
+          "linkText": "Sign up",
+          "linkUrl": "https://example.com"
+        }
+      ],
+      "seo": [
+        {
+          "id": 37,
+          "metaTitle": "About us",
+          "metaDescription": "Spectatae munera. Ista promissa\nvulnera linguam adversaque manebit, signa, faces, hactenus **fessam everti**\nvasto, deo."
+        }
+      ],
+      "localizations": [
+        {
+          "id": 32,
+          "documentId": "d29i02cyhyg6vdl81ztkfb3h",
+          "title": "Página Sobre nosotros",
+          "slug": "pagina-sobre-nosotros",
+          "createdAt": "2025-09-13T18:34:06.788Z",
+          "updatedAt": "2025-09-18T11:28:04.791Z",
+          "publishedAt": "2025-09-18T11:28:04.813Z",
+          "locale": "es",
+          "mdxBody": "# SPANISH -\n\n## Clamor quae pro pars\n\n### Vestigia sui\n\nFavilla viribus ait it reppulit [partus](#per-eram). Pererrat in aliudve facies,\nposcunt si voces bibulas. Ipse spes verecundo in caelum quodque et cornua\nconfusaque palmae animam ablatus dedit, posset duce sectamque summa. Exit manus\ntenera caput iam figitur conbibit Lethaei quibus [anguem famuli\nportabat](#clamor-quae-pro-pars) brevibus, cura penatibus.\n\nCautes nec; ore sanguine memorant ripam cum volucrem; molles lunae\n[nunc](#clamor-quae-pro-pars), movi? Suis mea, praeceps, nostra captivo ego\nhominis campi. Aeneaden deum iniqua *possit* cum lateo concipit artus opacae\nadsumptis: **Pallada levius ac**. Undis ut factoque Cytoriaco in tenera Neve\nmitis, que factis sit!\n\n### Per eram\n\n[Levis vitae si](#clamor-quae-pro-pars) nati per in Troum Aeacon et viae\naccensus, quae. Leto undarum amborum ut mihi ut potest viscere in cardine. Pecus\n**inter quis** stimuletur Protesilae quod **creavit Noctem**: genus orbe quemque\nleoni, cum sinit ut **dixit**."
+        },
+        {
+          "id": 30,
+          "documentId": "d29i02cyhyg6vdl81ztkfb3h",
+          "title": "Page À propos",
+          "slug": "page-a-propos",
+          "createdAt": "2025-09-13T18:32:56.169Z",
+          "updatedAt": "2025-09-18T11:18:24.196Z",
+          "publishedAt": "2025-09-18T11:18:24.221Z",
+          "locale": "fr",
+          "mdxBody": "# FRENCH \n\n## Clamor quae pro pars\n\n### Vestigia sui\n\nFavilla viribus ait it reppulit [partus](#per-eram). Pererrat in aliudve facies,\nposcunt si voces bibulas. Ipse spes verecundo in caelum quodque et cornua\nconfusaque palmae animam ablatus dedit, posset duce sectamque summa. Exit manus\ntenera caput iam figitur conbibit Lethaei quibus [anguem famuli\nportabat](#clamor-quae-pro-pars) brevibus, cura penatibus.\n\nCautes nec; ore sanguine memorant ripam cum volucrem; molles lunae\n[nunc](#clamor-quae-pro-pars), movi? Suis mea, praeceps, nostra captivo ego\nhominis campi. Aeneaden deum iniqua *possit* cum lateo concipit artus opacae\nadsumptis: **Pallada levius ac**. Undis ut factoque Cytoriaco in tenera Neve\nmitis, que factis sit!\n\n### Per eram\n\n[Levis vitae si](#clamor-quae-pro-pars) nati per in Troum Aeacon et viae\naccensus, quae. Leto undarum amborum ut mihi ut potest viscere in cardine. Pecus\n**inter quis** stimuletur Protesilae quod **creavit Noctem**: genus orbe quemque\nleoni, cum sinit ut **dixit**."
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 1
+    }
+  }
+}
