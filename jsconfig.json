@@ -1,8 +1,18 @@
 {
   "compilerOptions": {
-    "moduleResolution": "nodenext",
-    "target": "ES2021",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+
     "checkJs": true,
-    "allowJs": true
-  }
+    "allowJs": true,
+
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "target": "ES2022",
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["node_modules", ".next", "build"]
 }
